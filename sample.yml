@@ -1,0 +1,20 @@
+interval: 60
+timeout: 10
+ssl_warn_days: 14
+
+telegram:
+  token: ""
+  chat_id: ""
+
+local:
+  disk: 90
+  ram: 90
+  cpu: 90
+
+targets:
+  - name: example
+    url: https://example.com
+    keyword: Example Domain
+  - name: google-dns
+    host: 8.8.8.8
+    port: 53
